@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    </head>
+    <body>
+        <h2>Meal Manager</h2><br><br>
+        <div style="border: 2px black solid;width:190px;text-align: center;">
+            <div style="float: left; border: 1px black solid;text-align: center;background-color:skyblue;"><a href="step2.html" style="text-decoration: currentColor;">Step1</a></div>
+            <div style="float: left;border: 1px black solid;">Step2</div>
+            <div style="float: left;border: 1px black solid;">Step3</div>
+            <div>Review</div>
+        </div><br><br><br>
+        <labal for="meal">Please select your meal</labal><br><br>
+        <select id="meal_name" > 
+            <option>---Select---</option>
+            <option value="breakfast" id="break_meal">breakfast</option>
+            <option value="lunch" id="lunch_meal" >lunch</option>
+            <option>dinner</option>
+        </select><br><br><br>
+        
+        <labal for="count">Please select number of people</labal><br><br>
+     <!--  <input type="number" id="count" value="1"><br><br>-->
+       <button id="add">+</button>
+         <input type="text" id="qtybox" value="1" >
+         <button id="sub">-</button><br><br>
+        
+        <button type="button" id="next">Next</button>
+        
+           
+        
+        
+        
+        <script src="dishes.js"></script>
+        
+        <script src="step1.js"></script>
+        
+        
+    </body>
+</html>
